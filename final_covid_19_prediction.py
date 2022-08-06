@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 from matplotlib import style
 import operator
 from sklearn.model_selection import train_test_split
-cases_confirmed=pd.read_csv("C:/Users/nthom/OneDrive/Desktop/covid19_data_sets/time_series_covid-19_confirmed.csv")
-deaths_confirmed=pd.read_csv("C:/Users/nthom/OneDrive/Desktop/covid19_data_sets/time_series_covid-19_deaths.csv")
-recovered_confirmed=pd.read_csv("C:/Users/nthom/OneDrive/Desktop/covid19_data_sets/time_series_covid-19_recovered.csv")
+cases_confirmed=pd.read_csv("time_series_covid-19_confirmed.csv")
+deaths_confirmed=pd.read_csv("time_series_covid-19_deaths.csv")
+recovered_confirmed=pd.read_csv("time_series_covid-19_recovered.csv")
 
 cases = cases_confirmed.iloc[:,4:]
 deaths = deaths_confirmed.iloc[:,4:]
